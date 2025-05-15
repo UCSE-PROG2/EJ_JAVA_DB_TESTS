@@ -18,6 +18,7 @@ dependencies {
     
     // Database drivers
     implementation 'com.h2database:h2:2.2.224'
+    implementation 'com.mysql:mysql-connector-j:8.0.33'  // MySQL JDBC Driver
     
     // Testing
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
